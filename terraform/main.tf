@@ -7,10 +7,10 @@ provider "azurerm" {
 }
 terraform {
   backend "azurerm" {
-    storage_account_name = ""
-    container_name       = ""
+    storage_account_name = "finalproject12345"
+    container_name       = "finalproject"
     key                  = ""
-    access_key           = ""
+    access_key           = "ja5L2XwSAeWs4CqiHNmeCYIGqp3L2I3M19BoXNoJEv/Ur9b+jGux2dmBJvwO5Cxnz9XqLJO57M7x+AStEQI5bg=="
   }
 }
 module "resource_group" {
